@@ -14,9 +14,13 @@ Voici les ordres du programme Calculatrice  :
 	Créer une zone mémoire nommée #F avec la valeur 1.
 	Créer une zone mémoire nommée #binaire avec le texte "".
 	Créer une zone mémoire nommée #i avec la valeur 1.
-
+	Créer une zone mémoire nommée #NP.
 	Afficher "\nBienvenue dans la calculatrice.\n\n".
-
+	
+	Afficher "\nVeuilez rentrer votre Nom et Prénom.\n\n".
+	Récupérer la saisie et la stocker dans la zone mémoire #NP.
+	Afficher "\nQue l'Opér.\n\n".
+	
 	Répéter tant que #E == "oui"
 
 		Afficher "Entrez un nombre ".
